@@ -19,13 +19,13 @@ int main(void)
 		{
 			k = 0;
 			for (k = 0; k < 10; k++)
-			{			
+			{
 				if (j > i && k > j)
 				{
 					putchar(i + '0');
 					putchar(j + '0');
 					putchar(k + '0');
-					if (i == 7 && j== 8 && k == 9)
+					if (i == 7 && j == 8 && k == 9)
 						break;
 					putchar(',');
 					putchar(' ');
