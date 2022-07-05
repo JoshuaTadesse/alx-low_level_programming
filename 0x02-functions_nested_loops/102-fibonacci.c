@@ -7,10 +7,10 @@
  */
 int main(void)
 {
-	int n1 = 1;
-	int n2 = 2;
-	int i;
-	int temp;
+	long int n1 = 1;
+	long int n2 = 2;
+	long int i;
+	long int temp;
 
 	printf("%d, ", n1);
 	for (i = 0; i < 50; i++)
