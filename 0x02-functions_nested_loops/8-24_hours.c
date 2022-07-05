@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * jack_bauer - check the code
  *
  * Return: Always 0.
  */
@@ -12,7 +12,7 @@ void jack_bauer(void)
 	for (h_t = '0'; h_t < '3'; h_t++)
 	{
 		int h_o = '0';
-		int h_m;
+		int h_m = '0';
 
 		if (h_t == '2')
 		{
