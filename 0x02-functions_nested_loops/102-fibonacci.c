@@ -13,7 +13,7 @@ int main(void)
 	long int temp;
 
 	printf("%li, ", n1);
-	for (i = 0; i < 50; i++)
+	for (i = 0; i < 48; i++)
 	{
 		temp = n1 + n2;
 		n1 = n2;
