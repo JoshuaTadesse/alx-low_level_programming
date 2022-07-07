@@ -21,8 +21,9 @@ void print_triangle(int size)
 				else
 					_putchar('#');
 			}
+			_putchar('\n');
 		}
-		_putchar('\n');
+
 	}
 	else
 		_putchar('\n');
