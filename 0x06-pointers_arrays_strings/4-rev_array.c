@@ -9,7 +9,7 @@
 
 void reverse_array(int *a, int n)
 {
-	int count, mid, f, l, max;
+	int mid, f, l, max;
 
 	mid = max / 2;
 	while (mid != 0)
