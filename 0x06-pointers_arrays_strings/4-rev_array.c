@@ -13,7 +13,7 @@ void reverse_array(int *a, int n)
 
 	max = n - 1;
 	mid = max / 2;
-	while (mid != 0)
+	while (mid >= 0)
 	{
 		f = a[max - mid];
 		l = a[mid];
