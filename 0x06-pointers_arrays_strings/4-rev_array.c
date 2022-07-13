@@ -11,7 +11,8 @@ void reverse_array(int *a, int n)
 {
 	int mid, f, l, max;
 
-	mid = max / 2;
+	max = n;
+	mid = n / 2;
 	while (mid != 0)
 	{
 		f = a[max - mid];
