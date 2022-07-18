@@ -1,5 +1,5 @@
 #include "main.h"
-#include <string.h>
+
 /**
  * _memcpy - irontnoux2
  * @dest: pointer to char params
